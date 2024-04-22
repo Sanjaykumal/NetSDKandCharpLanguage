@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS ZENBOOK\\Desktop\\NetSDKandCharpLanguage\\LanguageBasics\\Netstarter\\Basics\\Basics.csproj": {}
+    "C:\\Users\\ASUS ZENBOOK\\Desktop\\NetSDKandCharpLanguage\\LanguageBasics\\NETStarter\\Basics\\Basics.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS ZENBOOK\\Desktop\\NetSDKandCharpLanguage\\LanguageBasics\\Netstarter\\Basics\\Basics.csproj": {
+    "C:\\Users\\ASUS ZENBOOK\\Desktop\\NetSDKandCharpLanguage\\LanguageBasics\\NETStarter\\Basics\\Basics.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS ZENBOOK\\Desktop\\NetSDKandCharpLanguage\\LanguageBasics\\Netstarter\\Basics\\Basics.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS ZENBOOK\\Desktop\\NetSDKandCharpLanguage\\LanguageBasics\\NETStarter\\Basics\\Basics.csproj",
         "projectName": "Basics",
-        "projectPath": "C:\\Users\\ASUS ZENBOOK\\Desktop\\NetSDKandCharpLanguage\\LanguageBasics\\Netstarter\\Basics\\Basics.csproj",
+        "projectPath": "C:\\Users\\ASUS ZENBOOK\\Desktop\\NetSDKandCharpLanguage\\LanguageBasics\\NETStarter\\Basics\\Basics.csproj",
         "packagesPath": "C:\\Users\\ASUS ZENBOOK\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS ZENBOOK\\Desktop\\NetSDKandCharpLanguage\\LanguageBasics\\Netstarter\\Basics\\obj\\",
+        "outputPath": "C:\\Users\\ASUS ZENBOOK\\Desktop\\NetSDKandCharpLanguage\\LanguageBasics\\NETStarter\\Basics\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS ZENBOOK\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -42,6 +42,28 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
